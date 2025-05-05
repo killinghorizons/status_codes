@@ -1,0 +1,188 @@
+[
+  {
+    "category": "server error responses",
+    "code": "500",
+    "name": "Internal Server Error",
+    "description": "The server encountered an unexpected condition."
+  },
+  {
+    "category": "server error responses",
+    "code": "501",
+    "name": "Not Implemented",
+    "description": "The server does not support the request method."
+  },
+  {
+    "category": "server error responses",
+    "code": "502",
+    "name": "Bad Gateway",
+    "description": "The server received an invalid response from an upstream server."
+  },
+  {
+    "category": "server error responses",
+    "code": "503",
+    "name": "Service Unavailable",
+    "description": "The server is currently unavailable."
+  },
+  {
+    "category": "server error responses",
+    "code": "504",
+    "name": "Gateway Timeout",
+    "description": "The server did not receive a timely response."
+  },
+  {
+    "category": "server error responses",
+    "code": "505",
+    "name": "HTTP Version Not Supported",
+    "description": "The server does not support the HTTP version used in the request."
+  },
+  {
+    "category": "informational responses",
+    "code": "100",
+    "name": "Continue",
+    "description": "The client should continue the request."
+  },
+  {
+    "category": "informational responses",
+    "code": "101",
+    "name": "Switching Protocols",
+    "description": "The server is switching protocols."
+  },
+  {
+    "category": "informational responses",
+    "code": "102",
+    "name": "Processing",
+    "description": "The request is being processed but no response is available yet."
+  },
+  {
+    "category": "informational responses",
+    "code": "103",
+    "name": "Early Hints",
+    "description": "Allows preloading resources while the server prepares a response."
+  },
+  {
+    "category": "client error responses",
+    "code": "400",
+    "name": "Bad Request",
+    "description": "The server could not understand the request."
+  },
+  {
+    "category": "client error responses",
+    "code": "401",
+    "name": "Unauthorized",
+    "description": "Authentication is required."
+  },
+  {
+    "category": "client error responses",
+    "code": "403",
+    "name": "Forbidden",
+    "description": "The server refuses to fulfill the request."
+  },
+  {
+    "category": "client error responses",
+    "code": "404",
+    "name": "Not Found",
+    "description": "The requested resource could not be found."
+  },
+  {
+    "category": "client error responses",
+    "code": "405",
+    "name": "Method Not Allowed",
+    "description": "The request method is not supported."
+  },
+  {
+    "category": "client error responses",
+    "code": "408",
+    "name": "Request Timeout",
+    "description": "The server timed out waiting for the request."
+  },
+  {
+    "category": "client error responses",
+    "code": "429",
+    "name": "Too Many Requests",
+    "description": "The client has sent too many requests in a given time."
+  },
+  {
+    "category": "redirection messages",
+    "code": "300",
+    "name": "Multiple Choices",
+    "description": "The request has multiple possible responses."
+  },
+  {
+    "category": "redirection messages",
+    "code": "301",
+    "name": "Moved Permanently",
+    "description": "The resource has been moved permanently."
+  },
+  {
+    "category": "redirection messages",
+    "code": "302",
+    "name": "Found",
+    "description": "The resource has been temporarily moved."
+  },
+  {
+    "category": "redirection messages",
+    "code": "303",
+    "name": "See Other",
+    "description": "The response is available at a different URI."
+  },
+  {
+    "category": "redirection messages",
+    "code": "304",
+    "name": "Not Modified",
+    "description": "The resource has not been modified."
+  },
+  {
+    "category": "redirection messages",
+    "code": "307",
+    "name": "Temporary Redirect",
+    "description": "The request should be repeated at another URI."
+  },
+  {
+    "category": "redirection messages",
+    "code": "308",
+    "name": "Permanent Redirect",
+    "description": "The request should be repeated at another URI permanently."
+  },
+  {
+    "category": "successful responses",
+    "code": "200",
+    "name": "OK",
+    "description": "The request succeeded."
+  },
+  {
+    "category": "successful responses",
+    "code": "201",
+    "name": "Created",
+    "description": "A new resource was created."
+  },
+  {
+    "category": "successful responses",
+    "code": "202",
+    "name": "Accepted",
+    "description": "The request has been received but not yet acted upon."
+  },
+  {
+    "category": "successful responses",
+    "code": "203",
+    "name": "Non-Authoritative Information",
+    "description": "Metadata is from a third-party copy."
+  },
+  {
+    "category": "successful responses",
+    "code": "204",
+    "name": "No Content",
+    "description": "No content to send, but headers may be useful."
+  },
+  {
+    "category": "successful responses",
+    "code": "205",
+    "name": "Reset Content",
+    "description": "Tells the client to reset the document."
+  },
+  {
+    "category": "successful responses",
+    "code": "206",
+    "name": "Partial Content",
+    "description": "Response to a range request."
+  }
+]
