@@ -9,6 +9,10 @@ const SearchInput = () => {
     setSearchQuery(e.target.value);
   };
 
+  const clearInput = () => {
+    setSearchQuery("");
+  };
+
   return (
     <div>
       <label htmlFor="search" className="text-sm mb-2 block">
@@ -32,6 +36,7 @@ const SearchInput = () => {
         <button
           type="reset"
           className="cursor-pointer w-10 h-10 flex items-center justify-center"
+          onClick={clearInput}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
