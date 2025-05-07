@@ -20,7 +20,7 @@ const SearchInput = () => {
       </label>
       <div
         className={tw(
-          "focus:border-foreground",
+          "focus-within:border-foreground",
           "flex justify-between w-full rounded-md border border-border py-2"
         )}
       >
